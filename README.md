@@ -146,7 +146,7 @@ Add the following line to the brandnew opened file :
 @reboot python3 /path/to/gpu_monitor/src/gpus_monitor/main.py
 ```
 
-## Ideas to enhanced the project :
+## Ideas to enhance the project :
 
 - Log system (owner, total calculation time by user)
 - Manage cases (subject): processes finished well or not (Send Traceback)
