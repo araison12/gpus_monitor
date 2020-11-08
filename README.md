@@ -149,9 +149,9 @@ Add the following line to the brandnew opened file :
 ## Ideas to enhanced the project :
 
 - Log system (owner, total calculation time by user)
-- Manage cases in email sending (subject): processes finished well or not (Send Traceback)
+- Manage cases (subject): processes finished well or not (Send Traceback)
 - Centralized system that scan every machine on a given IP adresses range.
-- Better errors management (SMTP connection failed, no Cuda GPU on the machine,..)
+- Better errors management (SMTP connection failed, no Cuda compatible GPU on the machine,..)
 - Documenting the project
 - Rewrite it in oriented object fashion 
 
