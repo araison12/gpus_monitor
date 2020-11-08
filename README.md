@@ -143,7 +143,7 @@ Add the following line to the brandnew opened file :
 @reboot python3 /path/to/gpu_monitor/src/gpus_monitor/main.py
 ```
 
-# Ideas to enhanced the project :
+## Ideas to enhanced the project :
 
 - Log system (owner, total calculation time by user)
 - Manage cases in email sending (subject): processes finished well or not (Send Traceback)
@@ -157,7 +157,7 @@ If you have any ideas to improve this project, don't hesitate to make a merge re
 
 
 
-# To test `gpus_monitors` by your own:
+## To test `gpus_monitors` by your own:
 
 I've implemented a the tiny non linear XOR problem in pyTorch.
 You can test `gpus_monitor` by your own while running :
