@@ -3,8 +3,11 @@
 
 
 `gpus_monitor` is a Python GPUs activities monitoring tool designed to report by email new and recently died compute processes over the machine where it has been run on.
-Basically, when you have just run a new stable training on the machine where `gpus_monitor` listen to, you will received in a few seconds an email notification. This email will contains several informations about the process you've launched.
-You received also an email if a compute process died (with EXIT_STATUS = 0 or not).
+Basically, when you have just run a new stable training on the machine where
+`gpus_monitor` listen to, you will received in a few seconds an email
+notification. This email will contains several informations about the process
+that has been launched.
+You will also receive an email if a compute process died (with EXIT_STATUS = 0 or not).
 
 
 ### Kind of mail gpus_monitor is going to send you :
@@ -99,7 +102,7 @@ vim config.py
 ```
 
 
-For privacy purposes, login of my dedicated SMTP account are stored in 2 machine environment variables. I've set up a brandnew Gmail account for my `gpus_monitor` instance. I can share with you my credentials in order to use a single SMTP account for `gpus_monitor` instance on several machines, feel free to send me an email !
+For privacy purposes, login of my dedicated SMTP account are stored in a machine in 2 environment variables. I've set up a brandnew Gmail account for my `gpus_monitor` instance. I can share with you my credentials in order to use a single SMTP account for each `gpus_monitor` instance listening several machine (max 100 mails/24h) , feel free to send me an email if you are interested in !
 Otherwise, fill in with your own SMTP server configuration.
 
 
@@ -159,7 +162,7 @@ If you have any ideas to improve this project, don't hesitate to make a merge re
 
 ## To test `gpus_monitors` by your own:
 
-I've implemented a the tiny non linear XOR problem in pyTorch.
+I've implemented the tiny non linear XOR problem in pyTorch.
 You can test `gpus_monitor` by your own while running :
 ```bash
 python3 gpus_monitor/test_torch.py
