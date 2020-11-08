@@ -72,7 +72,7 @@ You received also an email if a compute process died (with EXIT_STATUS = 0 or no
 
 or
 
-`python3 setup.py install --user`
+`python3 gpus_monitor/setup.py install --user`
 
 3. Add peoples mail to the list of the `persons_to_inform.yaml` file :
 
