@@ -50,7 +50,7 @@ You will also receive an email if a compute process died (with EXIT_STATUS = 0 o
 >> 
 >>         ---------------------------------------------------------------------------------------------------------------
 >>         The process (PID : 12350) launched by araison since 08/11/2020 11:43:48 has ended.
->>         His owner araison had executed the following command :
+>>         His owner <owner_of_the_process> had executed the following command :
 >>             python3 test_torch.py
 >>         From :
 >>             <absolute_path_to_the_script_of_the_died_process>
@@ -160,7 +160,7 @@ If you have any ideas to improve this project, don't hesitate to make a merge re
 
 
 
-## To test `gpus_monitors` by your own:
+## To test `gpus_monitor` by your own:
 
 I've implemented the tiny non linear XOR problem in pyTorch.
 You can test `gpus_monitor` by your own while running :
